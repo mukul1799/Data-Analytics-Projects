@@ -58,7 +58,7 @@ No linking between tables
 
 All this data is cleaned and migrated into structured relational tables.
 
-# Methods and Techniques Used:
+# Methods and Techniques Used
 a) Database Design
 
 Entity-Relationship (ER) modeling
@@ -115,14 +115,14 @@ Monthly revenue by department
 
 Patient and appointment summaries
 
-# Key Outcomes:
+# Key Outcomes
 
 The project delivers the following outcomes:
 
-✔ A fully structured relational hospital database
-✔ Elimination of duplicate and invalid data
-✔ Enforced data accuracy and consistency
-✔ Automated prevention of scheduling conflicts
-✔ Secure access based on doctor role and department
-✔ Department-wise monthly revenue reports
-✔ Improved hospital efficiency and decision-making
+A fully structured relational hospital database
+Elimination of duplicate and invalid data
+Enforced data accuracy and consistency
+Automated prevention of scheduling conflicts
+Secure access based on doctor role and department
+Department-wise monthly revenue reports
+Improved hospital efficiency and decision-making
