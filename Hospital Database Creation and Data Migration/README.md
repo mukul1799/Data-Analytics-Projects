@@ -1,11 +1,11 @@
-Project Overview
+# Project Overview
 
 The Hospital Database Creation and Data Migration project focuses on transforming an Excel-based hospital record system into a structured, secure, and scalable relational database system.
 The hospital currently manages patient records, doctor information, appointments, lab reports, prescriptions, and billing using spreadsheets, which leads to data duplication, errors, weak security, and reporting limitations.
 
 This project designs and implements a centralized hospital database that ensures data accuracy, enforces business rules, controls access, and supports analytical reporting such as department-wise revenue tracking.
 
-Project Objectives
+# Project Objectives
 
 The main objectives of the project are:
 
@@ -33,7 +33,7 @@ Enable Business Reporting
 
 Generate monthly revenue and departmental performance reports.
 
-Dataset Description
+# Dataset Description
 
 The original dataset comes from Excel files used by the hospital. It includes the following information:
 
@@ -58,7 +58,7 @@ No linking between tables
 
 All this data is cleaned and migrated into structured relational tables.
 
-Methods and Techniques Used
+# Methods and Techniques Used:
 a) Database Design
 
 Entity-Relationship (ER) modeling
@@ -115,7 +115,7 @@ Monthly revenue by department
 
 Patient and appointment summaries
 
-Key Outcomes
+# Key Outcomes:
 
 The project delivers the following outcomes:
 
