@@ -120,9 +120,15 @@ Patient and appointment summaries
 The project delivers the following outcomes:
 
 A fully structured relational hospital database
+
 Elimination of duplicate and invalid data
+
 Enforced data accuracy and consistency
+
 Automated prevention of scheduling conflicts
+
 Secure access based on doctor role and department
+
 Department-wise monthly revenue reports
+
 Improved hospital efficiency and decision-making
