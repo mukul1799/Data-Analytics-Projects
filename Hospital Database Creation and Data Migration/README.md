@@ -9,28 +9,22 @@ This project designs and implements a centralized hospital database that ensures
 
 The main objectives of the project are:
 
-Ensure Data Uniqueness
-
+1) Ensure Data Uniqueness:
 Create unique identifiers for patients, doctors, departments, and appointments.
 
-Maintain Data Integrity
-
+2) Maintain Data Integrity:
 Enforce relationships between patients, doctors, departments, and appointments using foreign keys.
 
-Eliminate Invalid Data
-
+3) Eliminate Invalid Data:
 Restrict gender, appointment status, and date values to predefined valid formats.
 
-Prevent Scheduling Conflicts
-
+4) Prevent Scheduling Conflicts:
 Avoid double-booking doctors and prevent appointments from being scheduled in the past.
 
-Implement Role-Based Access Control
-
+5) Implement Role-Based Access Control:
 Ensure that only authorized doctors can view patient data based on their role and department.
 
-Enable Business Reporting
-
+6) Enable Business Reporting:
 Generate monthly revenue and departmental performance reports.
 
 # Dataset Description
