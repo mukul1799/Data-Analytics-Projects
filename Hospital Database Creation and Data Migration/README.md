@@ -103,7 +103,7 @@ Views and permissions used to restrict access
 
 f) Reporting:
 
-SQL queries and views to generate:
+SQL queries and views to generate
 
 Monthly revenue by department
 
