@@ -42,18 +42,18 @@ Billing	Charges for consultations, tests, and medicines
 
 These Excel records had:
 
-Duplicate entries
+1) Duplicate entries
 
-Missing IDs
+2) Missing IDs
 
-Invalid values (e.g., gender = "X", status = "On Hold")
+3) Invalid values (e.g., gender = "X", status = "On Hold")
 
-No linking between tables
+4) No linking between tables
 
-All this data is cleaned and migrated into structured relational tables.
+5) All this data is cleaned and migrated into structured relational tables.
 
 # Methods and Techniques Used
-a) Database Design
+a) Database Design:
 
 Entity-Relationship (ER) modeling
 
@@ -61,7 +61,7 @@ Normalization to remove redundancy
 
 Primary and Foreign key implementation
 
-b) Data Validation
+b) Data Validation:
 
 CHECK constraints for:
 
@@ -71,7 +71,7 @@ Status: ('Scheduled','Completed','Cancelled')
 
 Date validation to prevent past appointments
 
-c) Referential Integrity
+c) Referential Integrity:
 
 Foreign keys to link:
 
@@ -81,7 +81,7 @@ Appointments → Doctors
 
 Doctors → Departments
 
-d) Automation Using SQL
+d) Automation Using SQL:
 
 Triggers to:
 
@@ -91,7 +91,7 @@ Block appointments in the past
 
 Stored procedures for inserting and validating data
 
-e) Role-Based Security
+e) Role-Based Security:
 
 User roles:
 
@@ -101,7 +101,7 @@ Doctor
 
 Views and permissions used to restrict access
 
-f) Reporting
+f) Reporting:
 
 SQL queries and views to generate:
 
