@@ -53,7 +53,7 @@ These Excel records had:
 5) All this data is cleaned and migrated into structured relational tables.
 
 # Methods and Techniques Used
-## a) Database Design:
+### a) Database Design:
 
 Entity-Relationship (ER) modeling
 
@@ -61,7 +61,7 @@ Normalization to remove redundancy
 
 Primary and Foreign key implementation
 
-## b) Data Validation:
+### b) Data Validation:
 
 CHECK constraints for:
 
@@ -71,7 +71,7 @@ Status: ('Scheduled','Completed','Cancelled')
 
 Date validation to prevent past appointments
 
-## c) Referential Integrity:
+### c) Referential Integrity:
 
 Foreign keys to link:
 
@@ -81,7 +81,7 @@ Appointments → Doctors
 
 Doctors → Departments
 
-## d) Automation Using SQL:
+### d) Automation Using SQL:
 
 Triggers to:
 
@@ -91,7 +91,7 @@ Block appointments in the past
 
 Stored procedures for inserting and validating data
 
-## e) Role-Based Security:
+### e) Role-Based Security:
 
 User roles:
 
@@ -101,7 +101,7 @@ Doctor
 
 Views and permissions used to restrict access
 
-## f) Reporting:
+### f) Reporting:
 
 SQL queries and views to generate
 
@@ -111,7 +111,7 @@ Patient and appointment summaries
 
 # Key Outcomes
 
-## The project delivers the following outcomes:
+### The project delivers the following outcomes:
 
 A fully structured relational hospital database
 
